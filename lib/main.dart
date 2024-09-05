@@ -146,7 +146,7 @@ Widget _buildRegisterBottomSheet(BuildContext context) {
   return Container(
     height: height * 0.7,
     decoration: BoxDecoration(
-      color: Color(0xFFFFE5A5), // Background color of the bottom sheet
+      color: Color(0xFFFFE5A5),
       borderRadius: BorderRadius.vertical(top: Radius.circular(40)),
     ),
     padding: const EdgeInsets.all(16.0),
@@ -179,8 +179,8 @@ Widget _buildRegisterBottomSheet(BuildContext context) {
           ],
         ),
         Positioned(
-          top: 16, // Adjusted top position
-          right: 16, // Adjusted right position
+          top: 16, 
+          right: 16,
           child: Container(
             width: 40,
             height: 40,
@@ -201,9 +201,9 @@ Widget _buildRegisterBottomSheet(BuildContext context) {
 Widget _buildLoginBottomSheet(BuildContext context) {
   final double height = MediaQuery.of(context).size.height;
   return Container(
-    height: height * 0.58, // Set the height to 30% of the screen height
+    height: height * 0.58,
     decoration: BoxDecoration(
-      color: Color(0xFFFFE5A5), // Set the background color to yellow
+      color: Color(0xFFFFE5A5),
       borderRadius: BorderRadius.vertical(top: Radius.circular(40)),
     ),
     padding: const EdgeInsets.all(16.0),
@@ -231,8 +231,8 @@ Widget _buildLoginBottomSheet(BuildContext context) {
           ],
         ),
         Positioned(
-          top: 16, // Adjusted top position
-          right: 16, // Adjusted right position
+          top: 16,
+          right: 16,
           child: Container(
             width: 40,
             height: 40,
